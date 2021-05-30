@@ -23,6 +23,7 @@ app.use((req, res, next) => {
 
 // Rutas
 app.use(require('./routes/regiones'));
+app.use(require('./routes/inserciones'));
 
 //Public
 app.use(express.static(path.join(__dirname, 'public')));
